@@ -6,7 +6,8 @@
     <h1 align="justify">Punto 1</h1>
     <h3 align="justify">Con la línea de comando touch archivo1.txt | locate *.sh > archivo.txt |cat archivo.tx 
 Se crea un archivo llamado archivo.txt, se busca todos los archivos con extensión .sh y los escribe en el archivo archivo.tx luego con cat se muestra el contenido del archivo en pantalla. </h3>
-  <img src="/imagenes_taller_parte2/Imagen1_Punto1.png" width="700" />
+  <img src="/imagenes taller/Imagen1_punto1.png" width="700" />
+  <img src="/imagenes taller/Imagen2_punto1.png" width="700" />
 
 <h1 align="justify">Punto 2</h1>
  <h3 align="justify">En este paso, se realiza la creación de un archivo que se llama Entrada.in y se escribe las palabras Archivo1, Archivo2, Archivo3 y Archivo4. Luego se crea una carpeta llamada file_salida en el directorio home/Ubuntu. Se crea una Shell la cual se encarga de crear los archivos con los nombres guardados en el archivo Entrada.in y los crea con la extensión .txt y los ubica en la carpeta file_salida.
@@ -29,7 +30,7 @@ Luego se crea un archivo con el nombre Salida.out y se escribe dentro el nombre 
  <h3 align="justify">1. Para la opción cambio de nombre del servidor se ejecuta el comando hostnamectl el cual muestra toda la información actual del servidor y luego se le pregunta al usuario si desea hacer el cambio del nombre del servidor.
 Si el usuario digita “Y o y”, se le solicitara al usuario que escriba el nuevo nombre al servidor y este se guarda en la variable $nombre y se ejecuta el siguiente comando: sudo hostnamectl set-hostname "$nombre" 
 Por ultimo se le muestra en la pantalla al usuario la información del servidor con el nuevo nombre asignado como se observa en la siguiente imagen: </h3>
- <img src="/imagenes_taller_parte2/Imagen1_Punto1.jpg" width="700" />
+ <img src="/imagenes_taller_parte2/Imagen1_Punto1.png" width="700" />
  
  <h3 align="justify">2. Para la opción Cambiar Partición de los discos, se le presenta al usuario las particiones existentes y luego se le solicita al usuario que digite la partición que desea modificar, luego se abrirá el menú para que realice el cambio que desee, como se observa en las siguientes imágenes: </h3>
   <img src="/imagenes_taller_parte2/Imagen1_Punto2.png" width="700" />
