@@ -6,8 +6,8 @@
     <h1 align="justify">Punto 1</h1>
     <h3 align="justify">Con la línea de comando touch archivo1.txt | locate *.sh > archivo.txt |cat archivo.tx 
 Se crea un archivo llamado archivo.txt, se busca todos los archivos con extensión .sh y los escribe en el archivo archivo.tx luego con cat se muestra el contenido del archivo en pantalla. </h3>
-  <img src="/imagenes taller/Imagen1_punto1.png" width="700" />
- <img src="/imagenes taller/Imagen2_punto1.png" width="700" />
+  <img src="/imagenes_taller_parte2/Imagen1_Punto1.png" width="700" />
+
 <h1 align="justify">Punto 2</h1>
  <h3 align="justify">En este paso, se realiza la creación de un archivo que se llama Entrada.in y se escribe las palabras Archivo1, Archivo2, Archivo3 y Archivo4. Luego se crea una carpeta llamada file_salida en el directorio home/Ubuntu. Se crea una Shell la cual se encarga de crear los archivos con los nombres guardados en el archivo Entrada.in y los crea con la extensión .txt y los ubica en la carpeta file_salida.
 Se realiza la autorización de la Shell con el comando chmod +x y luego se ejecuta con ./Shell.sh y luego se crea un archivo Salida.out con el comando touch y con la línea de comando: Ls -p file_salida/ | grep -v / > salida.out se guarda el nombre de los archivos en el archivo creado anteriormente Salida.out. Finalmente con el comando nl Salida.out se muestra enumerado el listado de los nombres de los archivos en la pantalla. </h3>
